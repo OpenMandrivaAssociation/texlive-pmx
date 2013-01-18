@@ -6,7 +6,7 @@
 # catalog-version 2.6.18
 Name:		texlive-pmx
 Version:	2.6.18
-Release:	1
+Release:	2
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
@@ -29,14 +29,15 @@ requires at least version 1.15 of MusiXTeX, running on an e-
 tex-enhanced TeX system.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
+if [ $1 -eq 0 ]; then
+%{_sbindir}/texlive.post
+fi
 
 #-----------------------------------------------------------------------
+
 %files
 %{_texmfdistdir}/scripts/pmx/Windows/pmx2pdf.bat
 %{_texmfdistdir}/scripts/pmx/pmx2pdf.lua
@@ -183,6 +184,6 @@ tex-enhanced TeX system.
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf texmf-dist %{buildroot}%{_datadir}
+cp -r texmf texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1/
