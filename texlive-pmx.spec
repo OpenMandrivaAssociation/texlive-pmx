@@ -178,7 +178,7 @@ fi
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%setup -q -c -a0 -a1
 rm -r texmf-dist/doc/support/pmx/OSX
 
 %build
