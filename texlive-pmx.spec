@@ -164,8 +164,8 @@ fi
 %doc %{_texmfdistdir}/doc/generic/pmx/scor2prt.1
 %doc %{_texmfdistdir}/doc/generic/pmx/scor2prt.pdf
 %doc %{_texmfdistdir}/doc/support/pmx/ChangeLog
-%doc %{_texmfdistdir}/doc/support/pmx/OSX/pmxab
-%doc %{_texmfdistdir}/doc/support/pmx/OSX/scor2prt
+#%doc %{_texmfdistdir}/doc/support/pmx/OSX/pmxab
+#%doc %{_texmfdistdir}/doc/support/pmx/OSX/scor2prt
 %doc %{_texmfdistdir}/doc/support/pmx/README
 %doc %{_texmfdistdir}/doc/support/pmx/pmx-install.pdf
 %doc %{_texmfdistdir}/doc/support/pmx/pmx-install.tex
@@ -179,6 +179,7 @@ fi
 #-----------------------------------------------------------------------
 %prep
 %setup -c -a0 -a1
+rm -r texmf-dist/doc/support/pmx/OSX
 
 %build
 
