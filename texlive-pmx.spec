@@ -6,7 +6,7 @@
 # catalog-version 2.6.18
 Name:		texlive-pmx
 Version:	2.6.18
-Release:	2
+Release:	3
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
