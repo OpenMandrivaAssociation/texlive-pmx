@@ -1,12 +1,12 @@
-# revision 29978
+# revision 32412
 # category Package
 # catalog-ctan /support/pmx
-# catalog-date 2013-04-16 18:37:23 +0200
+# catalog-date 2013-12-14 17:58:15 +0100
 # catalog-license gpl2
 # catalog-version 2.7.0
 Name:		texlive-pmx
 Version:	2.7.0
-Release:	5
+Release:	6
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
@@ -54,8 +54,11 @@ tex-enhanced TeX system.
 %doc %{_texmfdistdir}/doc/generic/pmx/pmx25-27.html
 %doc %{_texmfdistdir}/doc/generic/pmx/pmx270.pdf
 %doc %{_texmfdistdir}/doc/generic/pmx/pmx270.tex
+%doc %{_texmfdistdir}/doc/generic/pmx/pmx2pdf.html
+%doc %{_texmfdistdir}/doc/generic/pmx/pmxab.html
 %doc %{_texmfdistdir}/doc/generic/pmx/ref270.pdf
 %doc %{_texmfdistdir}/doc/generic/pmx/ref270.tex
+%doc %{_texmfdistdir}/doc/generic/pmx/scor2prt.html
 %doc %{_mandir}/man1/pmx2pdf.1*
 %doc %{_texmfdistdir}/doc/man/man1/pmx2pdf.man1.pdf
 %doc %{_mandir}/man1/pmxab.1*
