@@ -1,12 +1,12 @@
-# revision 32412
+# revision 33826
 # category Package
 # catalog-ctan /support/pmx
-# catalog-date 2013-12-14 17:58:15 +0100
+# catalog-date 2013-12-16 11:52:21 +0100
 # catalog-license gpl2
 # catalog-version 2.7.0
 Name:		texlive-pmx
 Version:	2.7.0
-Release:	7
+Release:	8
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
