@@ -1,12 +1,6 @@
-# revision 33826
-# category Package
-# catalog-ctan /support/pmx
-# catalog-date 2013-12-16 11:52:21 +0100
-# catalog-license gpl2
-# catalog-version 2.7.0
 Name:		texlive-pmx
-Version:	2.7.0
-Release:	11
+Version:	2.76
+Release:	1
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
@@ -38,29 +32,8 @@ tex-enhanced TeX system.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/scripts/pmx/pmx2pdf.lua
-%{_texmfdistdir}/tex/generic/pmx/pmx.tex
-%doc %{_texmfdistdir}/doc/generic/pmx/README
-%doc %{_texmfdistdir}/doc/generic/pmx/examples/barsant.pmx
-%doc %{_texmfdistdir}/doc/generic/pmx/examples/dyntest.pmx
-%doc %{_texmfdistdir}/doc/generic/pmx/examples/most.pmx
-%doc %{_texmfdistdir}/doc/generic/pmx/examples/mwalmnd.pmx
-%doc %{_texmfdistdir}/doc/generic/pmx/file600.eps
-%doc %{_texmfdistdir}/doc/generic/pmx/gpl.txt
-%doc %{_texmfdistdir}/doc/generic/pmx/install_run_pmx270.pdf
-%doc %{_texmfdistdir}/doc/generic/pmx/install_run_pmx270.tex
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx-install.pdf
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx-install.tex
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx25-27.html
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx270.pdf
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx270.tex
-%doc %{_texmfdistdir}/doc/generic/pmx/pmx2pdf.html
-%doc %{_texmfdistdir}/doc/generic/pmx/pmxab.html
-%doc %{_texmfdistdir}/doc/generic/pmx/ref270.pdf
-%doc %{_texmfdistdir}/doc/generic/pmx/ref270.tex
-%doc %{_texmfdistdir}/doc/generic/pmx/scor2prt.html
-%doc %{_mandir}/man1/pmx2pdf.1*
-%doc %{_texmfdistdir}/doc/man/man1/pmx2pdf.man1.pdf
+%{_texmfdistdir}/tex/generic/pmx
+%doc %{_texmfdistdir}/doc/generic/pmx
 %doc %{_mandir}/man1/pmxab.1*
 %doc %{_texmfdistdir}/doc/man/man1/pmxab.man1.pdf
 %doc %{_mandir}/man1/scor2prt.1*
