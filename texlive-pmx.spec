@@ -1,5 +1,5 @@
 Name:		texlive-pmx
-Version:	2.76
+Version:	2.84
 Release:	1
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
