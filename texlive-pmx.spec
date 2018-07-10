@@ -1,6 +1,6 @@
 Name:		texlive-pmx
 Version:	2.84
-Release:	1
+Release:	2
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/pmx
