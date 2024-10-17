@@ -3,7 +3,7 @@ Version:	65926
 Release:	1
 Summary:	Preprocessor for MusiXTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/pmx
+URL:		https://www.ctan.org/tex-archive/support/pmx
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pmx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pmx.doc.r%{version}.tar.xz
